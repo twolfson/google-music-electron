@@ -8,7 +8,7 @@ Desktop app for [Google Music][] on top of [Electron][]
 - Tray for quick play/pause/quit and tooltip with information
 - Media key shortcuts
 
-This was written as a successsor to [google-music-webkit][]. When upgrading between versions of [nw.js][], there were regressions with taskbar and shortcut bindings. We are hoping there are less scenarios like that with [Electron][].
+This was written as a successsor to [google-music-webkit][]. When upgrading between versions of [nw.js][], there were regressions with taskbar and shortcut bindings. We wrote this as an alternative.
 
 [Google Music]: https://play.google.com/music/listen
 [Electron]: http://electron.atom.io/
