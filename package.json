@@ -25,9 +25,12 @@
   "engines": {
     "node": ">= 0.10.0"
   },
+  "bin": {
+    "google-music-electron": "bin/google-music-electron.js"
+  },
   "scripts": {
     "lint": "twolfson-style lint lib/",
-    "start": "electron .",
+    "start": "bin/google-music-electron.js",
     "test": "npm run lint"
   },
   "dependencies": {
