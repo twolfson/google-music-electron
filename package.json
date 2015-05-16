@@ -23,7 +23,7 @@
   ],
   "main": "lib/google-music-electron",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "lint": "twolfson-style lint lib/",
