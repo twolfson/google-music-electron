@@ -34,13 +34,11 @@ npm install -g google-music-electron
 google-music-electron
 ```
 
-When the application has launched, it will appear in your taskbar and via a tray icon, ![tray icon](lib/icon.png).
+When the application has launched, it will appear in your taskbar and via a tray icon, ![tray icon](lib/assets/icon.png).
 
 ![Screenshot](docs/screenshot.png)
 
 ## Documentation
-_(Coming soon)_
-
 ### Icons
 Source images are kept in the `resources/` folder. Icons are maintained via Inkscape and the `play/pause` buttons are isolated in layers.
 
