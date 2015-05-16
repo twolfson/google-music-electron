@@ -1,5 +1,11 @@
 # google-music-electron [![Build status](https://travis-ci.org/twolfson/google-music-electron.png?branch=master)](https://travis-ci.org/twolfson/google-music-electron)
 
+// TODO: Set up tray icon
+// TODO: Set up media shortcuts
+// TODO: Handle minimize/maximize normally with tray interaction being min/max to start
+// TODO: Add on Amarok interaction with `--close-to-tray` option which closes the window but keeps everything running in the tray
+//   Upon thinking further, we might need to make the option more `--hide-in-taskbar` or not since Google Music can't really play in the background =/
+
 Desktop app for [Google Music][] on top of [Electron][]
 
 This was written as a successsor to [google-music-webkit][]. When upgrading between versions of [nw.js][], there were regressions with taskbar and shortcut bindings. We are hoping there are less scenarios like that with [Electron][].
