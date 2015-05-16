@@ -1,8 +1,9 @@
 # google-music-electron [![Build status](https://travis-ci.org/twolfson/google-music-electron.png?branch=master)](https://travis-ci.org/twolfson/google-music-electron)
 
-// TODO: Use menus from https://github.com/atom/electron-starter/blob/1cb0432acb5f0bb8270aa0d4345e45bded0f0f7f/src/browser/appmenu.coffee#L15-L16
-// TODO: Set up tray icon
+// TODO: Use window menus from https://github.com/atom/electron-starter/blob/1cb0432acb5f0bb8270aa0d4345e45bded0f0f7f/src/browser/appmenu.coffee#L15-L16
 // TODO: Change tray icon with playback changes
+// TODO: Handle minimize/maximize as tray menu icon
+// TODO: Handle minimize/maximize as tray menu click
 // TODO: Set up media shortcuts
 // TODO: Handle minimize/maximize normally with tray interaction being min/max to start
 // TODO: Add on Amarok interaction with `--close-to-tray` option which closes the window but keeps everything running in the tray
