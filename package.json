@@ -26,12 +26,15 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "precheck": "twolfson-style precheck lib/ test/",
     "lint": "twolfson-style lint lib/ test/",
+    "precheck": "twolfson-style precheck lib/ test/",
     "pretest": "twolfson-style install",
+    "start": "electron .",
     "test": "npm run precheck && mocha --reporter dot && npm run lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "electron-prebuilt": "~0.26.0"
+  },
   "devDependencies": {
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
