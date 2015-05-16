@@ -2,8 +2,12 @@
 
 Desktop app for [Google Music][] on top of [Electron][]
 
+This was written as a successsor to [google-music-webkit][]. When upgrading between versions of [nw.js][], there were regressions with taskbar and shortcut bindings. We are hoping there are less scenarios like that with [Electron][].
+
 [Google Music]: https://play.google.com/music/listen
 [Electron]: http://electron.atom.io/
+[google-music-webkit]: https://github.com/twolfson/google-music-webkit
+[nw.js]: https://github.com/nwjs/nw.js
 
 ## Getting Started
 Install the module with: `npm install google-music-electron`
