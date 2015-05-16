@@ -1,6 +1,9 @@
 # google-music-electron [![Build status](https://travis-ci.org/twolfson/google-music-electron.png?branch=master)](https://travis-ci.org/twolfson/google-music-electron)
 
-Desktop app for Google Music on top of Electron
+Desktop app for [Google Music][] on top of [Electron][]
+
+[Google Music]: https://play.google.com/music/listen
+[Electron]: http://electron.atom.io/
 
 ## Getting Started
 Install the module with: `npm install google-music-electron`
