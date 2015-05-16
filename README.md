@@ -17,13 +17,26 @@ This was written as a successsor to [google-music-webkit][]. When upgrading betw
 [google-music-webkit]: https://github.com/twolfson/google-music-webkit
 [nw.js]: https://github.com/nwjs/nw.js
 
+## Requirements
+- [npm][], usually installed with [node][]
+
+[npm]: http://npmjs.org/
+[node]: http://nodejs.org/
+
 ## Getting Started
-Install the module with: `npm install google-music-electron`
+`google-music-electron` can be installed globally via `npm`:
 
 ```js
-var googleMusicElectron = require('google-music-electron');
-googleMusicElectron(); // 'awesome'
+# Install google-music-electron via npm
+npm install -g google-music-electron
+
+# Run google-music-electron
+google-music-electron
 ```
+
+When the application has launched, it will appear in your taskbar and via a tray icon, ![tray icon](lib/icon.png).
+
+![Screenshot](docs/screenshot.png)
 
 ## Documentation
 _(Coming soon)_
