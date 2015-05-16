@@ -33,7 +33,8 @@
     "test": "npm run precheck && mocha --reporter dot && npm run lint"
   },
   "dependencies": {
-    "electron-prebuilt": "~0.26.0"
+    "electron-prebuilt": "~0.26.0",
+    "google-music": "~3.0.0"
   },
   "devDependencies": {
     "jscs": "~1.7.3",
