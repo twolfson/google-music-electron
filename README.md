@@ -39,6 +39,19 @@ When the application has launched, it will appear in your taskbar and via a tray
 ![Screenshot](docs/screenshot.png)
 
 ## Documentation
+### CLI
+We have a few CLI options available for you:
+
+```
+  Usage: google-music-electron [options]
+
+  Options:
+
+    -h, --help          output usage information
+    -V, --version       output the version number
+    -S, --skip-taskbar  Skip showing the application in the taskbar
+```
+
 ### Icons
 Source images are kept in the `resources/` folder. Icons are maintained via Inkscape and the `play/pause` buttons are isolated in layers.
 
