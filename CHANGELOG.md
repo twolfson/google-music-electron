@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.3.0 - Added `--version` and `--skip-taskbar` support
+
 1.2.0 - Added menu item for show/hide application window
 
 1.1.0 - Abstracted menu/tray/shortcut hooks into separate modules
