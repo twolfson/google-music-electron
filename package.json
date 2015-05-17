@@ -30,7 +30,7 @@
   },
   "scripts": {
     "lint": "twolfson-style lint lib/",
-    "start": "bin/google-music-electron.js",
+    "start": "node bin/google-music-electron.js",
     "test": "npm run lint"
   },
   "dependencies": {

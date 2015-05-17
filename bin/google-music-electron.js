@@ -3,6 +3,13 @@
 var path = require('path');
 var spawn = require('child_process').spawn;
 
-// Run electron on our application and forward all stdio
+// Find our application
 var googleMusicElectronPath = path.join(__dirname, '..');
-spawn('electron', [googleMusicElectronPath], {stdio: [0, 1, 2]});
+var args = [googleMusicElectronPath];
+
+// Append all arguments after our node invocation
+// e.g. `node bin/google-music-electron.js --version` -> `--version`
+args.concat(process.argv.slice(2));
+
+// Run electron on our application and forward all stdio
+spawn('electron', args, {stdio: [0, 1, 2]});
