@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.6.0 - Repaired bug with restoring minimized window from tray
+
 1.5.1 - Updated CLI documentation
 
 1.5.0 - Added `winston` as our logger
