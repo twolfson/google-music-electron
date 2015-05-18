@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.5.0 - Added `winston` as our logger
+
 1.4.0 - Repaired electron PATH issues
 
 1.3.0 - Added `--version` and `--skip-taskbar` support
