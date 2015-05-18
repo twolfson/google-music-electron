@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.5.1 - Updated CLI documentation
+
 1.5.0 - Added `winston` as our logger
 
 1.4.0 - Repaired electron PATH issues
