@@ -2,6 +2,7 @@
 // Load in our dependencies
 var path = require('path');
 var spawn = require('child_process').spawn;
+var electronPath = require('electron-prebuilt');
 
 // Find our application
 var googleMusicElectronPath = path.join(__dirname, '..');
@@ -12,4 +13,4 @@ var args = [googleMusicElectronPath];
 args = args.concat(process.argv.slice(2));
 
 // Run electron on our application and forward all stdio
-spawn('electron', args, {stdio: [0, 1, 2]});
+spawn(electronPath, args, {stdio: [0, 1, 2]});
