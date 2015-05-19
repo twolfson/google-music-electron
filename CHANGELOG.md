@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.7.0 - Refactored again to keep all application state/methods under one roof
+
 1.6.0 - Repaired bug with restoring minimized window from tray
 
 1.5.1 - Updated CLI documentation
