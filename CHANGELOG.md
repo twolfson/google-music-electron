@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.9.0 - Added support for Chromium flags
+
 1.8.0 - Added debug repl option
 
 1.7.0 - Refactored again to keep all application state/methods under one roof
