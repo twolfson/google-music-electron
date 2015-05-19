@@ -1,7 +1,7 @@
 {
   "name": "google-music-electron",
   "description": "Desktop app for Google Music on top of Electron",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "homepage": "https://github.com/twolfson/google-music-electron",
   "author": {
     "name": "Todd Wolfson",
