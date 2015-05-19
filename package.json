@@ -29,6 +29,7 @@
     "google-music-electron": "bin/google-music-electron.js"
   },
   "scripts": {
+    "debug-repl": "rc /tmp/repl/google-music-electron.sock",
     "lint": "twolfson-style lint lib/",
     "start": "node bin/google-music-electron.js",
     "test": "npm run lint"
