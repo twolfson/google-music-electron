@@ -43,6 +43,7 @@
   "devDependencies": {
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
+    "repl-client": "~0.3.0",
     "twolfson-style": "~1.6.0"
   },
   "keywords": [
