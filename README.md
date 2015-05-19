@@ -51,6 +51,7 @@ We have a few CLI options available for you:
     -V, --version       output the version number
     -S, --skip-taskbar  Skip showing the application in the taskbar
     --verbose           Display verbose log output in stdout
+    --debug-repl        Starts a `replify` server as `google-music-electron` for debugging
 ```
 
 ### Icons
