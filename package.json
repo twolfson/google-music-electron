@@ -37,11 +37,13 @@
     "commander": "~2.8.1",
     "electron-prebuilt": "~0.26.0",
     "google-music": "~3.0.0",
+    "replify": "~1.2.0",
     "winston": "~1.0.0"
   },
   "devDependencies": {
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
+    "repl-client": "~0.3.0",
     "twolfson-style": "~1.6.0"
   },
   "keywords": [
