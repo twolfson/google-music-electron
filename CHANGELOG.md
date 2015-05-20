@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.10.1 - Added documentation for development
+
 1.10.0 - Repaired separator menu bug for OSX via @arboleya in #5. Fixes #4
 
 1.9.0 - Added support for Chromium flags
