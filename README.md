@@ -54,6 +54,50 @@ We have a few CLI options available for you:
     --debug-repl        Starts a `replify` server as `google-music-electron` for debugging
 ```
 
+## Development
+### Running locally
+To get a local development copy running, you will need:
+
+- [npm][], usually installed with [node][]. Same `npm` that is used during installation
+- [git][], version control tool
+
+[git]: http://git-scm.com/
+
+Follow the steps below to get a development copy set up:
+
+```bash
+# Clone our repository
+git clone https://github.com/twolfson/google-music-electron.git
+cd google-music-electron/
+
+# Install our dependencies and dev dependencies
+npm install
+
+# Start up `google-music-electron`
+npm start
+```
+
+After running the above steps, a copy of `google-music-electron` should begin running.
+
+![Screenshot](docs/screenshot.png)
+
+#### Adding local setup as a global installation
+After getting our local development setup working, we can go one step further and get `google-music-electron` working on our CLI as if it were installed via `npm install -g`.
+
+```bash
+# Link local copy as a global copy
+# WARNING: Make sure that `npm install` has been run before this point
+#   or your local copy's permissions may get messed up
+npm link
+
+# Run `google-music-electron` for local copy
+google-music-electron
+```
+
+More information on `npm link` can be found in `npm's` documentation:
+
+https://docs.npmjs.com/cli/link
+
 ### Icons
 Source images are kept in the `resources/` folder. Icons are maintained via Inkscape and the `play/pause` buttons are isolated in layers.
 
