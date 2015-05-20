@@ -82,7 +82,7 @@ After running the above steps, a copy of `google-music-electron` should begin ru
 ![Screenshot](docs/screenshot.png)
 
 #### Adding local setup as a global installation
-After getting our local development setup working, we can go one step further and get `google-music-electron` working on our CLI as if it were installed via `npm install -g`.
+After getting our local development set up, we can go one step further and get `google-music-electron` working on our CLI as if it were installed via `npm install -g`.
 
 ```bash
 # Link local copy as a global copy
