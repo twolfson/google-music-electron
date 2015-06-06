@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.12.0 - Added `--hide-via-tray` CLI option
+
 1.11.0 - Upgraded to `electron@0.26.1` and added tray click for minimization
 
 1.10.1 - Added documentation for development
