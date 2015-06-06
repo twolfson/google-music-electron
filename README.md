@@ -50,6 +50,7 @@ We have a few CLI options available for you:
     -h, --help          output usage information
     -V, --version       output the version number
     -S, --skip-taskbar  Skip showing the application in the taskbar
+    --hide-via-tray     Replace default minimize action with hiding the window
     --verbose           Display verbose log output in stdout
     --debug-repl        Starts a `replify` server as `google-music-electron` for debugging
 ```
