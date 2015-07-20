@@ -32,14 +32,19 @@ npm install -g google-music-electron
 
 # Run google-music-electron
 google-music-electron
-
-# Update google-music-electron to a newer version via npm
-npm update -g google-music-electron
 ```
 
 When the application has launched, it will appear in your taskbar and via a tray icon, ![tray icon](lib/assets/icon.png).
 
 ![Screenshot](docs/screenshot.png)
+
+## Update
+`google-music-electron` can also be updated via `npm`:
+
+```js
+# Update google-music-electron to a newer version via npm
+npm update -g google-music-electron
+```
 
 ## Documentation
 ### CLI
