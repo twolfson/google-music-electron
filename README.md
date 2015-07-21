@@ -38,12 +38,14 @@ When the application has launched, it will appear in your taskbar and via a tray
 
 ![Screenshot](docs/screenshot.png)
 
-## Update
-`google-music-electron` can also be updated via `npm`:
+## Updating
+`google-music-electron` can be updated via `npm`:
 
 ```js
 # Update google-music-electron to a newer version via npm
 npm update -g google-music-electron
+# Alternatively, the following can be used as well to specify a version
+# npm install -g google-music-electron@latest
 ```
 
 ## Documentation
