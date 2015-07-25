@@ -41,6 +41,10 @@
     "replify": "~1.2.0",
     "winston": "~1.0.0"
   },
+  "optionalDependencies": {
+    "electron-rebuild": "*",
+    "mpris-service": "~1.0.1"
+  },
   "devDependencies": {
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
