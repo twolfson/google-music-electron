@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.15.0 - Added MPRIS support via @jck in #10
+
 1.14.1 - Added documentation on how to upgrade via @Q11x in #9
 
 1.14.0 - Added "Forward/Back" navigation buttons. Fixed #6
