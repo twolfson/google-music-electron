@@ -49,7 +49,7 @@ google-music-electron install-mpris
 
 ![MPRIS screenshot](docs/mpris-screenshot.png)
 
-[MRPIS]: http://specifications.freedesktop.org/mpris-spec/latest/
+[MPRIS]: http://specifications.freedesktop.org/mpris-spec/latest/
 
 ## Updating
 `google-music-electron` can be updated via `npm`:
