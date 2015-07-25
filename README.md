@@ -7,6 +7,7 @@ Desktop app for [Google Music][] on top of [Electron][]
 - Google Music as a standalone application
 - Tray for quick play/pause/quit and tooltip with information
 - Media key shortcuts
+- MPRIS integration (for GNU/Linux desktop environments)
 
 ![Screenshot](docs/screenshot.png)
 
@@ -37,6 +38,16 @@ google-music-electron
 When the application has launched, it will appear in your taskbar and via a tray icon, ![tray icon](lib/assets/icon.png).
 
 ![Screenshot](docs/screenshot.png)
+
+### MPRIS integration
+If you are on GNU/Linux and your desktop environment supports [MPRIS][], you can install our [MPRIS][] integration via:
+
+```bash
+google-music-electron install-mpris
+# Once this succeeds, MRPIS will be integrated on `google-music-electron` restart
+```
+
+![MPRIS screenshot](docs/mrpis-screenshot.png)
 
 ## Updating
 `google-music-electron` can be updated via `npm`:
