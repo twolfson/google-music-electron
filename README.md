@@ -47,7 +47,7 @@ google-music-electron install-mpris
 # Once this succeeds, MRPIS will be integrated on `google-music-electron` restart
 ```
 
-![MPRIS screenshot](docs/mrpis-screenshot.png)
+![MPRIS screenshot](docs/mpris-screenshot.png)
 
 ## Updating
 `google-music-electron` can be updated via `npm`:
