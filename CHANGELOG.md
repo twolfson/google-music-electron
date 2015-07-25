@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.17.0 - Added playback time tracking for MPRIS
+
 1.16.0 - Added album art, duration, exit, and raise events/actions to MPRIS
 
 1.15.0 - Added MPRIS support via @jck in #10
