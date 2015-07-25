@@ -41,15 +41,15 @@
     "replify": "~1.2.0",
     "winston": "~1.0.0"
   },
-  "optionalDependencies": {
-    "electron-rebuild": "*",
-    "mpris-service": "~1.0.1"
-  },
   "devDependencies": {
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
     "repl-client": "~0.3.0",
     "twolfson-style": "~1.6.0"
+  },
+  "mprisDependencies": {
+    "electron-rebuild": "~0.2.5",
+    "mpris-service": "~1.0.1"
   },
   "keywords": [
     "google",
