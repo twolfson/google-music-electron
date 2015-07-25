@@ -68,6 +68,10 @@ We have a few CLI options available for you:
 ```
   Usage: google-music-electron [options]
 
+  Commands:
+
+    install-mpris   Install integration with MPRIS (Linux only)
+
   Options:
 
     -h, --help          output usage information
