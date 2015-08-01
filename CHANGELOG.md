@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.17.2 - Repaired lint error
+
 1.17.1 - Updated MPRIS screenshot
 
 1.17.0 - Added playback time tracking for MPRIS
