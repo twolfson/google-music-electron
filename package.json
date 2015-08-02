@@ -37,7 +37,7 @@
   "dependencies": {
     "commander": "~2.8.1",
     "electron-prebuilt": "~0.26.1",
-    "google-music": "~3.0.0",
+    "google-music": "~3.1.0",
     "replify": "~1.2.0",
     "underscore": "~1.8.3",
     "winston": "~1.0.0"
