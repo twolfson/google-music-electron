@@ -39,7 +39,12 @@ When the application has launched, it will appear in your taskbar and via a tray
 
 ![Screenshot](docs/screenshot.png)
 
-### MPRIS integration
+## Newsletter
+Interested in hearing about updates and new releases of `google-music-electron`?
+
+[Subscribe to our newsletter!](https://groups.google.com/forum/#!forum/google-music-electron)
+
+## MPRIS integration
 If you are on GNU/Linux and your desktop environment supports [MPRIS][], you can install our [MPRIS][] integration via:
 
 ```bash
