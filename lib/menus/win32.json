@@ -27,7 +27,7 @@
   }, {
     "label": "&Help",
     "submenu": [{
-      "label": "About google-music-electron",
+      "label": "About Google Music Electron",
       "command": "application:about"
     }]
   }]

@@ -2,7 +2,7 @@
   "menu": [{
     "label": "google-music-electron",
     "submenu": [{
-      "label": "About google-music-electron",
+      "label": "About Google Music Electron",
       "command": "application:about"
     }, {
       "type": "separator"
