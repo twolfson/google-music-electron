@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.19.0 - Repaired missing forward/back buttons
+
 1.18.1 - Added newsletter subscription to README.md
 
 1.18.0 - Upgraded to `google-music@3.1.0` to repair duplicate playback events and detect stops
