@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.19.1 - Added `foundry` for release
+
 1.19.0 - Repaired missing forward/back buttons
 
 1.18.1 - Added newsletter subscription to README.md
