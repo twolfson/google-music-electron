@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.23.0 - Added CLI options to preferences
+
 1.22.0 - Added configuration bindings for shortcuts
 
 1.21.0 - Upgraded to `electron@0.34.0` to pick up Windows hide patches. Fixes #16
