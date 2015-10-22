@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.20.0 - Added `icon` to browser window. Fixes #17
+
 1.19.1 - Added `foundry` for release
 
 1.19.0 - Repaired missing forward/back buttons
