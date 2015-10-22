@@ -9,6 +9,14 @@
         font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
       }
 
+      .hidden {
+        display: none;
+      }
+
+      .muted {
+        opacity: 0.8;
+      }
+
       .error {
         color: red;
       }
@@ -51,7 +59,7 @@
     </p>
     <p data-save-checkbox="skip-taskbar">
       <label>
-        <span>Skip taskbar:</span>
+        <span>Skip taskbar<span class="hidden overriden"> (overriden):</span>
         <input type="checkbox" />
       </label>
       <span> Requires restart (</span>
@@ -62,7 +70,7 @@
     </p>
     <p data-save-checkbox="minimize-to-tray" data-unset-checkbox="#hide-via-tray">
       <label>
-        <span>Minimize to tray:</span>
+        <span>Minimize to tray<span class="hidden overriden"> (overriden):</span>
         <input type="checkbox" id="minimize-to-tray" />
       </label>
       <span> Requires restart (</span>
@@ -73,7 +81,7 @@
     </p>
     <p data-save-checkbox="hide-via-tray" data-unset-checkbox="#minimize-to-tray">
       <label>
-        <span>Hide via tray:</span>
+        <span>Hide via tray<span class="hidden overriden"> (overriden):</span>
         <input type="checkbox" id="hide-via-tray" />
       </label>
       <span> Requires restart (</span>
