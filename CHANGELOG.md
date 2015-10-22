@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.23.1 - Repaired respecting CLI overrides
+
 1.23.0 - Added CLI options to preferences
 
 1.22.0 - Added configuration bindings for shortcuts
