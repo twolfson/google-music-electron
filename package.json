@@ -43,6 +43,9 @@
     "winston": "~1.0.0"
   },
   "devDependencies": {
+    "foundry": "~4.3.2",
+    "foundry-release-git": "~2.0.2",
+    "foundry-release-npm": "~2.0.2",
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
     "repl-client": "~0.3.0",
@@ -57,5 +60,11 @@
     "music",
     "electron",
     "atom-shell"
-  ]
+  ],
+  "foundry": {
+    "releaseCommands": [
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
+  }
 }
