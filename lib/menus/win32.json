@@ -2,6 +2,11 @@
   "menu": [{
     "label": "&File",
     "submenu": [{
+      "label": "&Options",
+      "command": "application:show-settings"
+    }, {
+      "type": "separator"
+    }, {
       "label": "E&xit",
       "command": "application:quit",
       "accelerator": "Alt+F4"
