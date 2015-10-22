@@ -1,4 +1,6 @@
 # google-music-electron changelog
+1.21.0 - Upgraded to `electron@0.34.0` to pick up Windows hide patches. Fixes #16
+
 1.20.0 - Added `icon` to browser window. Fixes #17
 
 1.19.1 - Added `foundry` for release
