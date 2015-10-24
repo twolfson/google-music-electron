@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.0.1 - Added `Node.js` version to about window
+
 2.0.0 - Moved to using single instance by default. Fixes #19
 
 1.23.1 - Repaired respecting CLI overrides
