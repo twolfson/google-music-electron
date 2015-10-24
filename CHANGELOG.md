@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.0.0 - Moved to using single instance by default. Fixes #19
+
 1.23.1 - Repaired respecting CLI overrides
 
 1.23.0 - Added CLI options to preferences
