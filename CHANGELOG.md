@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.1.0 - Upgraded to `google-music-electron@3.2.0` for cross-version selectors and added `setTimeout` loop for binding initialization
+
 2.0.1 - Added `Node.js` version to about window
 
 2.0.0 - Moved to using single instance by default. Fixes #19
