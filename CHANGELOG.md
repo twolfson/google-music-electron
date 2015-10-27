@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.1.1 - Upgraded `electron-rebuild` to fix `node@4.0` (in Electron) issues
+
 2.1.0 - Upgraded to `google-music-electron@3.2.0` for cross-version selectors and added `setTimeout` loop for binding initialization
 
 2.0.1 - Added `Node.js` version to about window
