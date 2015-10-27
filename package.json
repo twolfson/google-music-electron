@@ -54,7 +54,7 @@
     "twolfson-style": "~1.6.0"
   },
   "mprisDependencies": {
-    "electron-rebuild": "~0.2.5",
+    "electron-rebuild": "~1.0.2",
     "mpris-service": "~1.0.1"
   },
   "keywords": [
