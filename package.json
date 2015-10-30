@@ -8,7 +8,6 @@
     "email": "todd@twolfson.com",
     "url": "http://twolfson.com/"
   },
-  "license": "Unlicense",
   "repository": {
     "type": "git",
     "url": "git://github.com/twolfson/google-music-electron.git"
@@ -16,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/twolfson/google-music-electron/issues"
   },
-  "licenses": [
-    {
-      "type": "UNLICENSE",
-      "url": "https://github.com/twolfson/google-music-electron/blob/master/UNLICENSE"
-    }
-  ],
+  "license": "Unlicense",
   "main": "lib/google-music-electron",
   "engines": {
     "node": ">= 0.10.0"
