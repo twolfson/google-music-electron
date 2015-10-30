@@ -8,6 +8,7 @@
     "email": "todd@twolfson.com",
     "url": "http://twolfson.com/"
   },
+  "license": "Unlicense",
   "repository": {
     "type": "git",
     "url": "git://github.com/twolfson/google-music-electron.git"
