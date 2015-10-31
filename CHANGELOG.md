@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.2.1 - Corrected license to SPDX format by @execat in #23
+
 2.2.0 - Added support for `paper-icon-button` navigation
 
 2.1.1 - Upgraded `electron-rebuild` to fix `node@4.0` (in Electron) issues
