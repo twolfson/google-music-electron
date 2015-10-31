@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.3.0 - Added truncation to tooltip to stop Windows crashes. Fixes #24
+
 2.2.1 - Corrected license to SPDX format by @execat in #23
 
 2.2.0 - Added support for `paper-icon-button` navigation
