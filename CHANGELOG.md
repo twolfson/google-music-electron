@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.4.0 - Increased `min-width` of arrow container to prevent shrinking arrows. Fixes #26
+
 2.3.0 - Added truncation to tooltip to stop Windows crashes. Fixes #24
 
 2.2.1 - Corrected license to SPDX format by @execat in #23
