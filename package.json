@@ -1,7 +1,7 @@
 {
   "name": "google-music-electron",
   "description": "Desktop app for Google Music on top of Electron",
-  "version": "1.18.1",
+  "version": "2.5.0",
   "homepage": "https://github.com/twolfson/google-music-electron",
   "author": {
     "name": "Todd Wolfson",
@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/twolfson/google-music-electron/issues"
   },
-  "licenses": [
-    {
-      "type": "UNLICENSE",
-      "url": "https://github.com/twolfson/google-music-electron/blob/master/UNLICENSE"
-    }
-  ],
+  "license": "Unlicense",
   "main": "lib/google-music-electron",
   "engines": {
     "node": ">= 0.10.0"
@@ -36,21 +31,26 @@
   },
   "dependencies": {
     "commander": "~2.8.1",
-    "electron-prebuilt": "~0.26.1",
-    "google-music": "~3.1.0",
+    "configstore": "~1.2.1",
+    "electron-prebuilt": "~0.34.0",
+    "google-music": "~3.3.0",
+    "monogamous": "~1.0.3",
     "replify": "~1.2.0",
     "underscore": "~1.8.3",
     "winston": "~1.0.0"
   },
   "devDependencies": {
     "electron-packager": "^5.0.1",
+    "foundry": "~4.3.2",
+    "foundry-release-git": "~2.0.2",
+    "foundry-release-npm": "~2.0.2",
     "jscs": "~1.7.3",
     "jshint": "~2.5.10",
     "repl-client": "~0.3.0",
     "twolfson-style": "~1.6.0"
   },
   "mprisDependencies": {
-    "electron-rebuild": "~0.2.5",
+    "electron-rebuild": "~1.0.2",
     "mpris-service": "~1.0.1"
   },
   "keywords": [
@@ -58,5 +58,11 @@
     "music",
     "electron",
     "atom-shell"
-  ]
+  ],
+  "foundry": {
+    "releaseCommands": [
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
+  }
 }

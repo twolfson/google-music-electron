@@ -7,6 +7,12 @@
     }, {
       "type": "separator"
     }, {
+      "label": "Preferences...",
+      "command": "application:show-settings",
+      "accelerator": "Command+,"
+    }, {
+      "type": "separator"
+    }, {
       "label": "Quit",
       "command": "application:quit",
       "accelerator": "Command+Q"

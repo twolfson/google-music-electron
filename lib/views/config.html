@@ -1,0 +1,105 @@
+<!doctype>
+<html>
+  <head>
+    <title>google-music-electron config</title>
+    <style type="text/css">
+      /* TODO: Use common CSS file with `about` */
+      /* https://github.com/corysimmons/typographic/blob/2.9.3/scss/typographic.scss#L34 */
+      body {
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .muted {
+        opacity: 0.8;
+      }
+
+      .error {
+        color: red;
+      }
+
+      .success {
+        color: limegreen;
+      }
+    </style>
+    <script src="../config-browser.js"></script>
+  </head>
+  <body>
+    <h1>google-music-electron config</h1>
+    <p><em>Shortcut examples: mediaplaypause, ctrl+shift+p, alt+p</em></p>
+    <p data-save-shortcut="playpause-shortcut">
+      <label>
+        <span>Play/Pause shortcut:</span>
+        <br />
+        <input type="text" placeholder="Enter a shortcut" />
+        <br />
+        <span class="output"></span>
+      </label>
+    </p>
+    <p data-save-shortcut="next-shortcut">
+      <label>
+        <span>Next shortcut:</span>
+        <br />
+        <input id="next-shortcut"  name="next-shortcut" type="text" placeholder="Enter a shortcut" />
+        <br />
+        <span class="output"></span>
+      </label>
+    </p>
+    <p data-save-shortcut="previous-shortcut">
+      <label>
+        <span>Previous shortcut:</span>
+        <br />
+        <input type="text" placeholder="Enter a shortcut" />
+        <br />
+        <span class="output"></span>
+      </label>
+    </p>
+    <p data-save-checkbox="skip-taskbar">
+      <label>
+        <span>Skip taskbar<span class="hidden overridden"> (overridden):</span>
+        <input type="checkbox" />
+      </label>
+      <span> Requires restart (</span>
+      <code class="cli-flags"></code>
+      <span>)</span>
+      <br/>
+      <em class="description"></em>
+    </p>
+    <p data-save-checkbox="minimize-to-tray" data-unset-checkbox="#hide-via-tray">
+      <label>
+        <span>Minimize to tray<span class="hidden overridden"> (overridden):</span>
+        <input type="checkbox" id="minimize-to-tray" />
+      </label>
+      <span> Requires restart (</span>
+      <code class="cli-flags"></code>
+      <span>)</span>
+      <br/>
+      <em class="description"></em>
+    </p>
+    <p data-save-checkbox="hide-via-tray" data-unset-checkbox="#minimize-to-tray">
+      <label>
+        <span>Hide via tray<span class="hidden overridden"> (overridden):</span>
+        <input type="checkbox" id="hide-via-tray" />
+      </label>
+      <span> Requires restart (</span>
+      <code class="cli-flags"></code>
+      <span>)</span>
+      <br/>
+      <em class="description"></em>
+    </p>
+    <p data-save-checkbox="allow-multiple-instances">
+      <label>
+        <span>Allow multiple instances<span class="hidden overridden"> (overridden):</span>
+        <input type="checkbox" id="allow-multiple-instances" />
+      </label>
+      <span> Requires restart (</span>
+      <code class="cli-flags"></code>
+      <span>)</span>
+      <br/>
+      <em class="description"></em>
+    </p>
+  </body>
+</html>

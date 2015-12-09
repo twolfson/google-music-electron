@@ -2,6 +2,9 @@
   "menu": [{
     "label": "&File",
     "submenu": [{
+      "label": "&Preferences",
+      "command": "application:show-settings"
+    }, {
       "label": "Quit",
       "command": "application:quit",
       "accelerator": "Control+Q"

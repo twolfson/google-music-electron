@@ -1,4 +1,36 @@
 # google-music-electron changelog
+2.5.0 - Upgraded to `google-music@3.3.0` to receive error noise patches
+
+2.4.0 - Increased `min-width` of arrow container to prevent shrinking arrows. Fixes #26
+
+2.3.0 - Added truncation to tooltip to stop Windows crashes. Fixes #24
+
+2.2.1 - Corrected license to SPDX format by @execat in #23
+
+2.2.0 - Added support for `paper-icon-button` navigation
+
+2.1.1 - Upgraded `electron-rebuild` to fix `node@4.0` (in Electron) issues
+
+2.1.0 - Upgraded to `google-music-electron@3.2.0` for cross-version selectors and added `setTimeout` loop for binding initialization
+
+2.0.1 - Added `Node.js` version to about window
+
+2.0.0 - Moved to using single instance by default. Fixes #19
+
+1.23.1 - Repaired respecting CLI overrides
+
+1.23.0 - Added CLI options to preferences
+
+1.22.0 - Added configuration bindings for shortcuts
+
+1.21.0 - Upgraded to `electron@0.34.0` to pick up Windows hide patches. Fixes #16
+
+1.20.0 - Added `icon` to browser window. Fixes #17
+
+1.19.1 - Added `foundry` for release
+
+1.19.0 - Repaired missing forward/back buttons
+
 1.18.1 - Added newsletter subscription to README.md
 
 1.18.0 - Upgraded to `google-music@3.1.0` to repair duplicate playback events and detect stops

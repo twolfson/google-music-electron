@@ -71,7 +71,8 @@ npm update -g google-music-electron
 We have a few CLI options available for you:
 
 ```
-  Usage: google-music-electron [options]
+  Usage: google-music-electron [options] [command]
+
 
   Commands:
 
@@ -79,13 +80,14 @@ We have a few CLI options available for you:
 
   Options:
 
-    -h, --help          output usage information
-    -V, --version       output the version number
-    -S, --skip-taskbar  Skip showing the application in the taskbar
-    --minimize-to-tray  Hide window to tray instead of minimizing
-    --hide-via-tray     Hide window to tray instead of minimizing (only for tray icon)
-    --verbose           Display verbose log output in stdout
-    --debug-repl        Starts a `replify` server as `google-music-electron` for debugging
+    -h, --help                  output usage information
+    -V, --version               output the version number
+    -S, --skip-taskbar          Skip showing the application in the taskbar
+    --minimize-to-tray          Hide window to tray instead of minimizing
+    --hide-via-tray             Hide window to tray instead of minimizing (only for tray icon)
+    --allow-multiple-instances  Allow multiple instances of `google-music-electron` to run
+    --verbose                   Display verbose log output in stdout
+    --debug-repl                Starts a `replify` server as `google-music-electron` for debugging
 ```
 
 ## Development
