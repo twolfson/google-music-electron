@@ -40,6 +40,7 @@
     "winston": "~1.0.0"
   },
   "devDependencies": {
+    "electron-packager": "^5.0.1",
     "foundry": "~4.3.2",
     "foundry-release-git": "~2.0.2",
     "foundry-release-npm": "~2.0.2",
