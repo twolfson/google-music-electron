@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.5.1 - Followed renamed `google-music` to `gmusic.js`
+
 2.5.0 - Upgraded to `google-music@3.3.0` to receive error noise patches
 
 2.4.0 - Increased `min-width` of arrow container to prevent shrinking arrows. Fixes #26
