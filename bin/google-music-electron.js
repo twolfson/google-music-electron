@@ -3,6 +3,10 @@
 var path = require('path');
 var spawn = require('child_process').spawn;
 var electronPath = require('electron-prebuilt');
+var parseCli = require('../lib/cli-parser').parse;
+
+// Process our arguments (catches any `--help` and `install-mpris` commands)
+parseCli(process.argv);
 
 // Find our application
 var googleMusicElectronPath = path.join(__dirname, '..');
