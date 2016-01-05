@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.7.0 - Upgraded to `electron@0.36.2` to patch OS specific crashes. Fixes #29
+
 2.6.0 - Relocated `install-mpris` command from running inside `electron` to `node` launcher (part of #25)
 
 2.5.1 - Followed renamed `google-music` to `gmusic.js`
