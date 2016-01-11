@@ -3,6 +3,8 @@
 set -e
 set -x
 
+# TODO: Move to `shelljs` or `node's execSync`
+
 # Copy our library and `package.json` into a build directory
 if test -d tmp-build; then
   rm -r tmp-build
