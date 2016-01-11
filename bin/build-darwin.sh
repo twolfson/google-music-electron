@@ -26,8 +26,11 @@ cd -
 electron_version="$(node --eval "console.log(require('electron-prebuilt/package.json').version);")"
 
 # Compile our OS X application
+if ! test -d dist; then
+  mkdir dist
+fi
 src_dir="tmp-build/"
-app_name="google-music-electron/"
+app_name="google-music-electron"
 ./node_modules/.bin/electron-packager "$src_dir" "$app_name" \
-  --platform darwin --arch all --version "$electron_version"
-  --out dist/darwin
+  --platform darwin --arch all --version "$electron_version" \
+  --out dist/
