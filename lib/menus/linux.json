@@ -10,6 +10,35 @@
       "accelerator": "Control+Q"
     }]
   }, {
+    "label": "&Edit",
+    "submenu": [{
+      "label": "&Undo",
+      "command": "core:undo",
+      "accelerator": "Control+Z"
+    }, {
+      "label": "&Redo",
+      "command": "core:redo",
+      "accelerator": "Control+Y"
+    }, {
+      "type": "separator"
+    }, {
+      "label": "&Cut",
+      "command": "core:cut",
+      "accelerator": "Control+X"
+    }, {
+      "label": "C&opy",
+      "command": "core:copy",
+      "accelerator": "Control+C"
+    }, {
+      "label": "&Paste",
+      "command": "core:paste",
+      "accelerator": "Control+V"
+    }, {
+      "label": "Select &All",
+      "command": "core:select-all",
+      "accelerator": "Control+A"
+    }]
+  }, {
     "label": "&View",
     "submenu": [{
       "label": "&Reload",

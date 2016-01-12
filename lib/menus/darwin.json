@@ -21,32 +21,32 @@
     "label": "Edit",
     "submenu": [{
       "label": "Undo",
-      "accelerator": "CmdOrCtrl+Z",
-      "selector": "undo:"
+      "selector": "undo:",
+      "accelerator": "Command+Z"
     }, {
       "label": "Redo",
-      "accelerator": "Shift+CmdOrCtrl+Z",
-      "selector": "redo:"
+      "selector": "redo:",
+      "accelerator": "Shift+Command+Z"
     }, {
       "type": "separator"
     }, {
       "label": "Cut",
-      "accelerator": "CmdOrCtrl+X",
-      "selector": "cut:"
+      "selector": "cut:",
+      "accelerator": "Command+X"
     }, {
       "label": "Copy",
-      "accelerator": "CmdOrCtrl+C",
-      "selector": "copy:"
+      "selector": "copy:",
+      "accelerator": "Command+C"
     }, {
       "label": "Paste",
-      "accelerator": "CmdOrCtrl+V",
-      "selector": "paste:" 
+      "selector": "paste:",
+      "accelerator": "Command+V"
     }, {
       "label": "Select All",
-      "accelerator": "CmdOrCtrl+A",
-      "selector": "selectAll:"
+      "selector": "selectAll:",
+      "accelerator": "Command+A"
     }]
-  },{
+  }, {
     "label": "View",
     "submenu": [{
       "label": "Reload",
