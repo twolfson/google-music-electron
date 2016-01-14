@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.9.0 - Updated deprecated requires and Electron methods
+
 2.8.0 - Added Edit menu for OS X editing support via @chushao in #36
 
 2.7.0 - Upgraded to `electron@0.36.2` to patch OS specific crashes. Fixes #29
