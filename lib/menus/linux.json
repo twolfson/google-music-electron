@@ -13,29 +13,29 @@
     "label": "&Edit",
     "submenu": [{
       "label": "&Undo",
-      "command": "core:undo",
+      "role": "undo",
       "accelerator": "Control+Z"
     }, {
       "label": "&Redo",
-      "command": "core:redo",
+      "role": "redo",
       "accelerator": "Control+Y"
     }, {
       "type": "separator"
     }, {
       "label": "&Cut",
-      "command": "core:cut",
+      "role": "cut",
       "accelerator": "Control+X"
     }, {
       "label": "C&opy",
-      "command": "core:copy",
+      "role": "copy",
       "accelerator": "Control+C"
     }, {
       "label": "&Paste",
-      "command": "core:paste",
+      "role": "paste",
       "accelerator": "Control+V"
     }, {
       "label": "Select &All",
-      "command": "core:select-all",
+      "role": "selectall",
       "accelerator": "Control+A"
     }]
   }, {
