@@ -68,11 +68,8 @@
     "label": "Window",
     "submenu": [{
       "label": "Minimize",
-      "role": "performMiniaturize:",
+      "role": "minimize",
       "accelerator": "Command+M"
-    }, {
-      "label": "Zoom",
-      "role": "performZoom:"
     }]
   }]
 }
