@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.10.0 - Added window size/location preservation via @JordanRobinson in #42
+
 2.9.0 - Updated deprecated requires and Electron methods
 
 2.8.0 - Added Edit menu for OS X editing support via @chushao in #36
