@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.10.1 - Repaired `google-music-electron` failing to launch due to a lack of `window-info`
+
 2.10.0 - Added window size/location preservation via @JordanRobinson in #42
 
 2.9.0 - Updated deprecated requires and Electron methods
