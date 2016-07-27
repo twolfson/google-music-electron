@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.11.0 - Followed back rename of `gmusic.js` to  `google-music`
+
 2.10.1 - Repaired `google-music-electron` failing to launch due to a lack of `window-info`
 
 2.10.0 - Added window size/location preservation via @JordanRobinson in #42
