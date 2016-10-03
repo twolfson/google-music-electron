@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.12.0 - Added enabling/disabling of forward/back buttons when available/not
+
 2.11.0 - Followed back rename of `gmusic.js` to  `google-music`
 
 2.10.1 - Repaired `google-music-electron` failing to launch due to a lack of `window-info`
