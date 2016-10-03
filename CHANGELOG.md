@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.12.1 - Corrected forward/back enabled/disabled after page reload
+
 2.12.0 - Added enabling/disabling of forward/back buttons when available/not
 
 2.11.0 - Followed back rename of `gmusic.js` to  `google-music`
