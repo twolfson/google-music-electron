@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.13.0 - Fixed navigation arrow size for new Google Music UI
+
 2.12.1 - Corrected forward/back enabled/disabled after page reload
 
 2.12.0 - Added enabling/disabling of forward/back buttons when available/not
