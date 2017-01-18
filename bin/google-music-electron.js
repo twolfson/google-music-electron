@@ -2,7 +2,7 @@
 // Load in our dependencies
 var path = require('path');
 var spawn = require('child_process').spawn;
-var electronPath = require('electron-prebuilt');
+var electronPath = require('electron');
 var parseCli = require('../lib/cli-parser').parse;
 
 // Process our arguments (catches any `--help` and `install-mpris` commands)
