@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.15.0 - Upgraded to `electron@1.6.2` to attempt to finally repair 2FA
+
 2.14.0 - Fixed missing and small arrows
 
 2.13.0 - Fixed navigation arrow size for new Google Music UI
