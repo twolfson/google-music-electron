@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.16.1 - Fixed Node.js supported versions for Travis CI
+
 2.16.0 - Repaired arrow bindings timings
 
 2.15.0 - Upgraded to `electron@1.6.2` to attempt to finally repair 2FA
