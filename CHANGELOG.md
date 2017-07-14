@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.16.0 - Repaired arrow bindings timings
+
 2.15.0 - Upgraded to `electron@1.6.2` to attempt to finally repair 2FA
 
 2.14.0 - Fixed missing and small arrows
