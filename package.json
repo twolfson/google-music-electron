@@ -18,7 +18,7 @@
   "license": "Unlicense",
   "main": "lib/google-music-electron",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6.0.0"
   },
   "bin": {
     "google-music-electron": "bin/google-music-electron.js"
