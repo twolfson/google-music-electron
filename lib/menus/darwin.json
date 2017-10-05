@@ -13,6 +13,19 @@
     }, {
       "type": "separator"
     }, {
+      "label": "Hide google-music-electron",
+      "role": "hide",
+      "accelerator": "Command+H"
+    }, {
+      "label": "Hide Others",
+      "role": "hideothers",
+      "accelerator": "Alt+Command+H"
+    }, {
+      "label": "Show All",
+      "role": "unhide"
+    }, {
+      "type": "separator"
+    }, {
       "label": "Quit",
       "command": "application:quit",
       "accelerator": "Command+Q"
