@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.17.0 - Added macOS hide controls via @RickyRomero in #46
+
 2.16.1 - Fixed Node.js supported versions for Travis CI
 
 2.16.0 - Repaired arrow bindings timings
