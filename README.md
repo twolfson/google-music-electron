@@ -149,12 +149,12 @@ At the time of writing, Inkscape and Image Magick seemed to be generating non-tr
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint via `npm run lint` and test via `npm test`.
 
 ## Donating
-Support this project and [others by twolfson][gratipay] via [gratipay][].
+Support this project and [others by twolfson][twolfson-projects] via [donations][twolfson-support-me].
 
-[![Support via Gratipay][gratipay-badge]][gratipay]
+<http://twolfson.com/support-me>
 
-[gratipay-badge]: https://cdn.rawgit.com/gratipay/gratipay-badge/2.x.x/dist/gratipay.png
-[gratipay]: https://www.gratipay.com/twolfson/
+[twolfson-projects]: http://twolfson.com/projects
+[twolfson-support-me]: http://twolfson.com/support-me
 
 ## Attribution
 Headphones designed by Jake Dunham from [the Noun Project][headphones-icon]
