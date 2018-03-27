@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.18.0 - Upgraded to electron@1.8.4 to fix GitHub vulnerability warning
+
 2.17.1 - Replaced Gratipay with support me page
 
 2.17.0 - Added macOS hide controls via @RickyRomero in #46
