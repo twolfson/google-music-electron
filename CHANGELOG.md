@@ -1,4 +1,6 @@
 # google-music-electron changelog
+2.20.0 - Moved to fake user agent to trick Google auth, via https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/commit/a6065183e767e48a34a3f57eea852d69d13bc007
+
 2.19.0 - Upgraded to electron@7.1.4 to fix playback issues
 
 2.18.0 - Upgraded to electron@1.8.4 to fix GitHub vulnerability warning
